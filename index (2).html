@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Netflix Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+        
+        header {
+            background-color: #141414;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header h1 {
+            color: red;
+        }
+        
+        .movie-row {
+            padding: 20px;
+        }
+        
+        .movie-row h2 {
+            margin-bottom: 10px;
+        }
+        
+        .movie-list {
+            display: flex;
+            overflow-x: auto;
+        }
+        
+        .movie {
+            width: 200px;
+            margin-right: 10px;
+        }
+        
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Netflix</h1>
+        <nav>
+            <a href="#" style="color:white; margin-right:10px;">Home</a>
+            <a href="#" style="color:white;">TV Shows</a>
+        </nav>
+    </header>
+
+    <section class="movie-row">
+        <h2>Trending Now</h2>
+        <div class="movie-list">
+            <div class="movie"><img src="https://cdn.123telugu.com/content/wp-content/uploads/2024/12/HIT3-1-212x300.jpg"></div>
+            <div class="movie"><img src="https://th.bing.com/th/id/OIP.JKhuUfUrD0zR5UGoEGh1OwHaJ4?r=0&pid=ImgDet&w=191&h=254&c=7&cb=idpwebp1&o=7&rm=3"></div>
+            <div class="movie"><img src="https://th.bing.com/th/id/OIP.PN3JEBg-jw_W0u_yA_JFxwAAAA?w=149&h=187&c=7&r=0&o=7&pid=1.7&rm=3"></div>
+            <div class="movie"><img src="https://th.bing.com/th/id/OIP.J_hiwV_OGkcmptdzRI8YagHaKo?w=115&h=183&c=7&r=0&o=7&pid=1.7&rm=3"></div>
+            <div class="movie"><img src="https://th.bing.com/th/id/OIP.dUWdGtr6xixFwH5rUYR1LQHaML?w=184&h=304&c=7&r=0&o=7&pid=1.7&rm=3"></div>
+        </div>
+    </section>
+</body>
+
+</html>
